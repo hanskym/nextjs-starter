@@ -1,4 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
-  "extends": ["eslint:recommended", "next/core-web-vitals", "next/typescript", "prettier"]
+  "extends": ["eslint:recommended", "next/core-web-vitals", "next/typescript", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn"
+  }
 }
