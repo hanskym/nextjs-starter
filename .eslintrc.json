@@ -56,29 +56,12 @@
         "groupKind": "values-first"
       }
     ],
-    "perfectionist/sort-objects": [
-      "error",
-      {
-        "matcher": "regex",
-        "groups": ["unknown", "setState"],
-        "customGroups": {
-          "setState": ["^set[A-Z]"]
-        }
-      }
-    ],
+    "perfectionist/sort-objects": "off",
     "perfectionist/sort-object-types": [
       "error",
       {
         "groupKind": "required-first"
       }
     ]
-  },
-  "overrides": [
-    {
-      "files": ["./*", "src/components/ui/**/*"],
-      "rules": {
-        "perfectionist/sort-objects": "off"
-      }
-    }
-  ]
+  }
 }
