@@ -1,8 +1,84 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
-  "extends": ["eslint:recommended", "next/core-web-vitals", "next/typescript", "prettier"],
-  "plugins": ["prettier"],
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:perfectionist/recommended-natural-legacy",
+    "prettier"
+  ],
+  "plugins": ["perfectionist", "prettier"],
   "rules": {
-    "prettier/prettier": "warn"
-  }
+    "prettier/prettier": "warn",
+    "perfectionist/sort-imports": [
+      "error",
+      {
+        "matcher": "minimatch",
+        "internalPattern": ["@/**"],
+        "groups": [
+          "react",
+          "next",
+          "type",
+          ["builtin", "external"],
+          "internal-type",
+          "components",
+          "components-ui",
+          "internal",
+          ["parent-type", "sibling-type", "index-type"],
+          ["parent", "sibling", "index"],
+          "object",
+          "unknown"
+        ],
+        "customGroups": {
+          "value": {
+            "react": ["react", "react-*"],
+            "next": ["next", "next/*"],
+            "components": "@/components/*",
+            "components-ui": "@/components/ui/*"
+          },
+          "type": {
+            "react": ["react", "react-*"],
+            "next": ["next", "next/*"]
+          }
+        },
+        "environment": "node"
+      }
+    ],
+    "perfectionist/sort-named-exports": [
+      "error",
+      {
+        "groupKind": "values-first"
+      }
+    ],
+    "perfectionist/sort-named-imports": [
+      "error",
+      {
+        "groupKind": "values-first"
+      }
+    ],
+    "perfectionist/sort-objects": [
+      "error",
+      {
+        "matcher": "regex",
+        "groups": ["unknown", "setState"],
+        "customGroups": {
+          "setState": ["^set[A-Z]"]
+        }
+      }
+    ],
+    "perfectionist/sort-object-types": [
+      "error",
+      {
+        "groupKind": "required-first"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["./*", "src/components/ui/**/*"],
+      "rules": {
+        "perfectionist/sort-objects": "off"
+      }
+    }
+  ]
 }
