@@ -19,11 +19,12 @@ export const metadata: Metadata = {
       url: siteConfig.url,
     },
   ],
+  creator: siteConfig.aboutMe.fullName,
+  generator: 'Next.js',
+  robots: { index: true, follow: true },
   alternates: {
     canonical: '/',
   },
-  creator: siteConfig.aboutMe.fullName,
-  generator: 'Next.js',
   openGraph: {
     description: siteConfig.description,
     images: [
