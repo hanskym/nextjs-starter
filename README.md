@@ -12,6 +12,7 @@
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
 - 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/).
+- ✍️ **Commitizen**: Simplifies the process of writing consistent commit messages
 - 🔍 **Next.js Metadata**: Preconfigured `metadata`, `robots`, `manifest`, and `sitemap` for SEO
 - 📊 **Bundle Analyzer**: Analyze the size of your Next.js build
 - 📁 **Absolute Import and Path Alias**: Import components using the `@/` prefix
