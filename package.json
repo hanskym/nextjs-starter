@@ -12,6 +12,7 @@
     "lint-staged": "lint-staged",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "commit": "cz",
     "typecheck": "tsc --noEmit",
     "prepare": "husky"
   },
@@ -23,12 +24,14 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/cz-commitlint": "^19.5.0",
     "@commitlint/types": "^19.5.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@next/bundle-analyzer": "14.2.15",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "commitizen": "^4.3.1",
     "conventional-changelog-atom": "^5.0.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
