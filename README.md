@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Starter
+
+📦 A minimal Next.js starter template, packed with TypeScript, ESLint, Prettier, and Husky. Configured for quick setup with the necessary tools.
+
+## Features
+
+- 🚀 **Next.js** 14 with App Router
+- ⚛️ **React** 18
+- 🟦 **TypeScript**: Adds type safety to the code
+- ✔️ **ESLint**: Configured for code quality checks
+- 💅 **Prettier**: Code formatting and sorting imports
+- 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
+- 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
+- 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/).
+- 🔍 **Next.js Metadata**: Preconfigured `metadata`, `robots`, `manifest`, and `sitemap` for SEO
+- 📊 **Bundle Analyzer**: Analyze the size of your Next.js build
+- 📁 **Absolute Import and Path Alias**: Import components using the `@/` prefix
+- 💻 **VSCode**: Includes settings and recommended extensions
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org) (version 18 or later)
+- [Bun](https://bun.sh)
+
+> **Note:** If using npm, Yarn, or pnpm, adjust the package commands accordingly, including Husky commit hooks.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Start a New Project
+
+You can start a new project using this repository as a template in three ways:
+
+1. Use This Repository as Template
+
+![use-this-template-button](https://i.imgur.com/XO4Wntx.png)
+
+2. Using `create-next-app`
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+npx create-next-app -e https://github.com/hanskym/nextjs-starter my-project-name --use-bun # npm | pnpm | yarn
+```
+
+3. Using Git Clone
+
+```bash
+git clone https://github.com/hanskym/nextjs-starter my-project-name
+```
+
+### 2. Install Dependencies
+
+```bash
+bun install
+```
+
+### 3. Prepare Husky
+
+```bash
+bun prepare
+```
+
+### 4. Run the Development Server
+
+```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 in your browser to view your Next.js application. Start by modifying `src/app/page.tsx`, and your changes will update in real time.
