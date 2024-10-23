@@ -11,7 +11,7 @@
 - 💅 **Prettier**: Code formatting and sorting imports
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
-- 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/).
+- 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - ✍️ **Commitizen**: Simplifies the process of writing consistent commit messages
 - 🔍 **Next.js Metadata**: Preconfigured `metadata`, `robots`, `manifest`, and `sitemap` for SEO
 - 📊 **Bundle Analyzer**: Analyze the size of your Next.js build
@@ -35,19 +35,19 @@ You can start a new project using this repository as a template in three ways:
 
 1. Use This Repository as Template
 
-![use-this-template-button](https://i.imgur.com/XO4Wntx.png)
+   ![use-this-template-button](https://i.imgur.com/XO4Wntx.png)
 
 2. Using `create-next-app`
 
-```bash
-npx create-next-app -e https://github.com/hanskym/nextjs-starter my-project-name --use-bun # npm | pnpm | yarn
-```
+   ```bash
+   npx create-next-app -e https://github.com/hanskym/nextjs-starter my-project-name --use-bun # npm | pnpm | yarn
+   ```
 
 3. Using Git Clone
 
-```bash
-git clone https://github.com/hanskym/nextjs-starter my-project-name
-```
+   ```bash
+   git clone https://github.com/hanskym/nextjs-starter my-project-name
+   ```
 
 ### 2. Install Dependencies
 
@@ -67,4 +67,4 @@ bun prepare
 bun dev
 ```
 
-Open http://localhost:3000 in your browser to view your Next.js application. Start by modifying `src/app/page.tsx`, and your changes will update in real time.
+Open http://localhost:3000 in your browser to view your Next.js application. You can start editing the page by modifying `src/app/page.tsx`, and the changes will update in real time.
