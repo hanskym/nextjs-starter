@@ -26,9 +26,8 @@
     "^@/components/ui/(.*)$",
     "",
     "^@/config/(.*)$",
-    "^@/lib/(.*)$",
     "^@/hooks/(.*)$",
-    "^@/registry/(.*)$",
+    "^@/lib/(.*)$",
     "",
     "^@/styles/(.*)$",
     "",
@@ -38,5 +37,6 @@
     "",
     "^[./]"
   ],
-  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"]
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.0.0"
 }
