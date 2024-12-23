@@ -4,11 +4,14 @@
 
 ## Features
 
-- 🚀 **Next.js** 14 with App Router
-- ⚛️ **React** 18
+- 🚀 **Next.js** with App Router
+  - [v15](https://github.com/hanskym/nextjs-starter/tree/v15)
+  - [v14](https://github.com/hanskym/nextjs-starter/tree/v14)
+- ⚛️ **React** 19
 - 🟦 **TypeScript**: Adds type safety to the code
 - ✔️ **ESLint**: Configured for code quality checks
 - 💅 **Prettier**: Code formatting and sorting imports
+- 🧩 **Zod**: Type-safe schema validation
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
 - 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -17,6 +20,48 @@
 - 📊 **Bundle Analyzer**: Analyze the size of your Next.js build
 - 📁 **Absolute Import and Path Alias**: Import components using the `@/` prefix
 - 💻 **VSCode**: Includes settings and recommended extensions
+
+## Extend Your Next.js Project
+
+Customize and expand your Next.js project by integrating these libraries and frameworks, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
+
+- 🎨 **Recommended CSS Frameworks**
+  - [Tailwind CSS](https://tailwindcss.com)
+  - [shadcn/ui](https://ui.shadcn.com)
+  - [Chakra UI](https://www.chakra-ui.com)
+  - [Material UI (MUI)](https://mui.com)
+  - [Mantine](https://mantine.dev)
+  - [Panda CSS](https://panda-css.com)
+  - [Ant Design](https://ant.design)
+- 🧪 **Unit Testing**
+  - [Jest](https://jestjs.io)
+  - [Cypress](https://www.cypress.io)
+  - [Playwright](https://playwright.dev)
+  - [Vitest](https://vitest.dev)
+- 📑 **Form Libraries**
+  - [react-hook-form](https://react-hook-form.com)
+  - [Formik](https://formik.org/)
+  - [Redux Form](https://redux-form.com)
+  - [React Final Form](https://final-form.org/react)
+- ⚙️ **State Management**
+  - [Zustand](https://zustand.docs.pmnd.rs)
+  - [Jotai](https://jotai.org)
+  - [Valtio](https://valtio.dev)
+  - [Recoil](https://recoiljs.org)
+  - [Redux](https://redux.js.org)
+  - [Rematch](https://rematchjs.org)
+- 🗄️ **Database Setup**
+  - [Prisma](https://www.prisma.io)
+  - [Drizzle](https://orm.drizzle.team)
+- 🔐 **Authentication Libraries**
+  - [Auth.js/NextAuth](https://authjs.dev)
+  - [Lucia](https://lucia-auth.com)
+  - [BetterAuth](https://www.better-auth.com)
+- 🌍 **Internationalization (i18n)**
+  - [Paraglide](https://inlang.com/m/osslbuzt/paraglide-next-i18n)
+  - [Lingui](https://lingui.dev)
+  - [Tolgee](https://tolgee.io/apps-integrations/next)
+  - [next-intl](https://next-intl.dev)
 
 ## Prerequisites
 
