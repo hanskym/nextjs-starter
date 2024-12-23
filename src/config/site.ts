@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Next.js Starter',
-  url: 'https://acme.com',
+  url: 'https://nextjs-starter.hansky.dev',
   aboutMe: {
     altName: 'JDoe',
     fullName: 'John Doe',
@@ -15,7 +15,7 @@ export const siteConfig = {
   },
   description: 'A starter template for building Next.js.',
   keywords: ['Next.js', 'Starter Template', 'Next.js App Router'],
-  ogImage: 'https://acme.com/og-image.png',
+  ogImage: '/og-image.png',
 };
 
 export type SiteConfig = typeof siteConfig;
