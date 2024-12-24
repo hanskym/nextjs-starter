@@ -10,20 +10,21 @@
 - ⚛️ **React** 19
 - 🟦 **TypeScript**: Adds type safety to the code
 - ✔️ **ESLint**: Configured for code quality checks
-- 💅 **Prettier**: Code formatting and sorting imports
+- 💅 **Prettier**: Code formatting and [sorting imports](https://github.com/IanVS/prettier-plugin-sort-imports)
 - 🧩 **Zod**: Type-safe schema validation
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
 - 📝 **Commitlint**: Enforces [conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - ✍️ **Commitizen**: Simplifies the process of writing consistent commit messages
 - 🔍 **Next.js Metadata**: Preconfigured `metadata`, `robots`, `manifest`, and `sitemap` for SEO
+- 💨 **Turbopack**: Blazing fast bundler and compiler for Next.js
 - 📊 **Bundle Analyzer**: Analyze the size of your Next.js build
 - 📁 **Absolute Import and Path Alias**: Import components using the `@/` prefix
 - 💻 **VSCode**: Includes settings and recommended extensions
 
 ## Extend Your Next.js Project
 
-Customize and expand your Next.js project by integrating these libraries and frameworks, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
+Customize and expand your Next.js project by integrating these libraries and tools, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
 
 - 🎨 **Recommended CSS Frameworks**
   - [Tailwind CSS](https://tailwindcss.com)
@@ -38,6 +39,10 @@ Customize and expand your Next.js project by integrating these libraries and fra
   - [Cypress](https://www.cypress.io)
   - [Playwright](https://playwright.dev)
   - [Vitest](https://vitest.dev)
+- 🔃 **Data Fetching**
+  - [TanStack Query](https://tanstack.com/query/latest)
+  - [SWR](https://swr.vercel.app)
+  - [Axios](https://axios-http.com)
 - 📑 **Form Libraries**
   - [react-hook-form](https://react-hook-form.com)
   - [Formik](https://formik.org/)
@@ -67,7 +72,7 @@ Customize and expand your Next.js project by integrating these libraries and fra
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org) (version 18 or later)
+- [Node.js](https://nodejs.org) (version 20 or later)
 - [Bun](https://bun.sh)
 
 > **Note:** If using npm, Yarn, or pnpm, adjust the package commands accordingly, including Husky commit hooks.
