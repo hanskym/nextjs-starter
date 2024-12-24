@@ -2,6 +2,8 @@ import Image from 'next/image';
 
 import styles from '@/styles/readme.module.css';
 
+import githubTemplate from '@/assets/use-this-template-button.png';
+
 export default function ReadMe() {
   return (
     <div className={styles.container}>
@@ -36,7 +38,7 @@ export default function ReadMe() {
           </ul>
         </li>
         <li>
-          ⚛️ <strong>React</strong> 19
+          ⚛️ <strong>React</strong> 18
         </li>
         <li>
           🟦 <strong>TypeScript</strong>: Adds type safety to the code
@@ -45,7 +47,14 @@ export default function ReadMe() {
           ✔️ <strong>ESLint</strong>: Configured for code quality checks
         </li>
         <li>
-          💅 <strong>Prettier</strong>: Code formatting and sorting imports
+          💅 <strong>Prettier</strong>: Code formatting and{' '}
+          <a
+            href="https://github.com/IanVS/prettier-plugin-sort-imports"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            sorting imports
+          </a>
         </li>
         <li>
           🧩 <strong>Zod</strong>: Type-safe schema validation
@@ -89,8 +98,8 @@ export default function ReadMe() {
       </ul>
       <h2 id="extend-your-nextjs-project">Extend Your Next.js Project</h2>
       <p>
-        Customize and expand your Next.js project by integrating these libraries and frameworks,
-        designed to meet specific project requirements such as styling, testing, state management,
+        Customize and expand your Next.js project by integrating these libraries and tools, designed
+        to meet specific project requirements such as styling, testing, state management,
         authentication, and more.
       </p>
       <ul>
@@ -155,6 +164,26 @@ export default function ReadMe() {
             <li>
               <a href="https://vitest.dev" rel="noopener noreferrer" target="_blank">
                 Vitest
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          🔃 <strong>Data Fetching</strong>
+          <ul>
+            <li>
+              <a href="https://tanstack.com/query/latest" rel="noopener noreferrer" target="_blank">
+                TanStack Query
+              </a>
+            </li>
+            <li>
+              <a href="https://swr.vercel.app" rel="noopener noreferrer" target="_blank">
+                SWR
+              </a>
+            </li>
+            <li>
+              <a href="https://axios-http.com" rel="noopener noreferrer" target="_blank">
+                Axios
               </a>
             </li>
           </ul>
@@ -313,12 +342,7 @@ export default function ReadMe() {
       <ol>
         <li>
           <p>Use This Repository as Template</p>
-          <Image
-            src="/use-this-template-button.png"
-            width={300}
-            height={150}
-            alt="use-this-template-button"
-          />
+          <Image src={githubTemplate} width={300} height={126} alt="use-this-template-button" />
         </li>
         <li>
           <p>

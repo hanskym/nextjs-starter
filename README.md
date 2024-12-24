@@ -7,10 +7,10 @@
 - 🚀 **Next.js** with App Router
   - [v15](https://github.com/hanskym/nextjs-starter/tree/v15)
   - [v14](https://github.com/hanskym/nextjs-starter/tree/v14)
-- ⚛️ **React** 19
+- ⚛️ **React** 18
 - 🟦 **TypeScript**: Adds type safety to the code
 - ✔️ **ESLint**: Configured for code quality checks
-- 💅 **Prettier**: Code formatting and sorting imports
+- 💅 **Prettier**: Code formatting and [sorting imports](https://github.com/IanVS/prettier-plugin-sort-imports)
 - 🧩 **Zod**: Type-safe schema validation
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
@@ -23,7 +23,7 @@
 
 ## Extend Your Next.js Project
 
-Customize and expand your Next.js project by integrating these libraries and frameworks, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
+Customize and expand your Next.js project by integrating these libraries and tools, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
 
 - 🎨 **Recommended CSS Frameworks**
   - [Tailwind CSS](https://tailwindcss.com)
@@ -38,6 +38,10 @@ Customize and expand your Next.js project by integrating these libraries and fra
   - [Cypress](https://www.cypress.io)
   - [Playwright](https://playwright.dev)
   - [Vitest](https://vitest.dev)
+- 🔃 **Data Fetching**
+  - [TanStack Query](https://tanstack.com/query/latest)
+  - [SWR](https://swr.vercel.app)
+  - [Axios](https://axios-http.com)
 - 📑 **Form Libraries**
   - [react-hook-form](https://react-hook-form.com)
   - [Formik](https://formik.org/)
