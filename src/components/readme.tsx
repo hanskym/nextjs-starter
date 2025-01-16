@@ -19,7 +19,7 @@ export default function ReadMe() {
           <ul>
             <li>
               <a
-                href="https://github.com/hanskym/nextjs-starter/tree/v15"
+                href="https://github.com/hanskym/nextjs-starter"
                 rel="noopener noreferrer"
                 target="_blank"
               >
