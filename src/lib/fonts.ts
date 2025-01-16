@@ -1,13 +1,11 @@
-import localFont from 'next/font/local';
+import { Geist, Geist_Mono } from 'next/font/google';
 
-export const geistSans = localFont({
-  src: '../assets/fonts/GeistVF.woff',
+export const geistSans = Geist({
   variable: '--font-geist-sans',
-  weight: '100 900',
+  subsets: ['latin'],
 });
 
-export const geistMono = localFont({
-  src: '../assets/fonts/GeistMonoVF.woff',
+export const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
-  weight: '100 900',
+  subsets: ['latin'],
 });
