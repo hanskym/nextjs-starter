@@ -11,6 +11,7 @@
 - 🟦 **TypeScript**: Adds type safety to the code
 - ✔️ **ESLint**: Configured for code quality checks
 - 💅 **Prettier**: Code formatting and [sorting imports](https://github.com/IanVS/prettier-plugin-sort-imports)
+- ✂️ **Knip**: Detects unused files, dependencies, and exports
 - 🧩 **Zod**: Type-safe schema validation
 - 🐶 **Husky**: Manages Git hooks that run automatically during commits and pushes
 - 🔄 **Lint Staged**: Automatically run code formatting and linters on pre-committed files
@@ -25,7 +26,7 @@
 
 Customize and expand your Next.js project by integrating these libraries and tools, designed to meet specific project requirements such as styling, testing, state management, authentication, and more.
 
-- 🎨 **Recommended CSS Frameworks**
+- 🎨 **CSS Frameworks**
   - [Tailwind CSS](https://tailwindcss.com)
   - [shadcn/ui](https://ui.shadcn.com)
   - [Chakra UI](https://www.chakra-ui.com)

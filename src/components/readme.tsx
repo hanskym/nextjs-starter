@@ -57,6 +57,9 @@ export default function ReadMe() {
           </a>
         </li>
         <li>
+          ✂️ <strong>Knip</strong>: Detects unused files, dependencies, and exports
+        </li>
+        <li>
           🧩 <strong>Zod</strong>: Type-safe schema validation
         </li>
         <li>
@@ -104,7 +107,7 @@ export default function ReadMe() {
       </p>
       <ul>
         <li>
-          🎨 <strong>Recommended CSS Frameworks</strong>
+          🎨 <strong>CSS Frameworks</strong>
           <ul>
             <li>
               <a href="https://tailwindcss.com" rel="noopener noreferrer" target="_blank">
