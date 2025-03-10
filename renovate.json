@@ -6,9 +6,32 @@
   "schedule": ["before 1am on Monday"],
   "minimumReleaseAge": "2 days",
   "major": {
-    "enabled": false
+    "enabled": true,
+    "separateMajorMinor": true,
+    "separateMultipleMajor": true
   },
   "rangeStrategy": "bump",
   "updatePinnedDependencies": false,
-  "ignoreDeps": ["node"]
+  "ignoreDeps": ["node"],
+  "packageRules": [
+    {
+      "matchDeps": ["next", "@next/bundle-analyzer", "eslint-config-next"],
+      "matchBaseBranches": ["v14"],
+      "allowedVersions": "14.x"
+    },
+    {
+      "matchDeps": ["react", "react-dom", "@types/react", "@types/react-dom"],
+      "matchBaseBranches": ["v14"],
+      "allowedVersions": "18.x"
+    },
+    {
+      "matchDeps": ["eslint"],
+      "matchBaseBranches": ["v14"],
+      "allowedVersions": "8.x"
+    },
+    {
+      "matchPackageNames": ["@types/node"],
+      "allowedVersions": "20.x"
+    }
+  ]
 }
