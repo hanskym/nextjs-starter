@@ -3,7 +3,7 @@
   "extends": ["config:recommended", "group:all"],
   "baseBranches": ["master", "v14"],
   "timezone": "Asia/Jakarta",
-  "schedule": ["every weekend"],
+  "schedule": ["before 8am on Monday"],
   "minimumReleaseAge": "2 days",
   "major": {
     "enabled": true,
