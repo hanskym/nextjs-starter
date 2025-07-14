@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Next.js Starter',
-  url: 'https://nextjs-starter.hansky.dev',
+  url: 'https://example.com',
   aboutMe: {
     altName: 'JDoe',
     fullName: 'John Doe',
