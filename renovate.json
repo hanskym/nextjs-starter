@@ -3,7 +3,7 @@
   "extends": ["config:recommended", "group:all"],
   "baseBranches": ["master", "v14"],
   "timezone": "Asia/Jakarta",
-  "schedule": ["before 8am on Monday"],
+  "schedule": ["before 8am on the first day of the month"],
   "minimumReleaseAge": "2 days",
   "major": {
     "enabled": true,
@@ -31,7 +31,7 @@
     },
     {
       "matchPackageNames": ["@types/node"],
-      "allowedVersions": "20.x"
+      "allowedVersions": "22.x"
     }
   ]
 }
