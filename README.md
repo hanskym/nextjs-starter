@@ -26,7 +26,7 @@
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org) (version 18 or later)
+- [Node.js](https://nodejs.org) (version 22 or later)
 - [Bun](https://bun.sh)
 
 > **Note:** If using npm, Yarn, or pnpm, adjust the package commands accordingly, including Husky commit hooks.
