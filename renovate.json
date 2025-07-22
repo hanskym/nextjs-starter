@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", "group:all"],
-  "baseBranches": ["master", "v14"],
+  "baseBranchPatterns": ["master", "v14"],
   "timezone": "Asia/Jakarta",
   "schedule": ["before 8am on the first day of the month"],
   "minimumReleaseAge": "2 days",
@@ -15,12 +15,21 @@
   "ignoreDeps": ["node"],
   "packageRules": [
     {
-      "matchPackageNames": ["next", "@next/bundle-analyzer", "eslint-config-next"],
+      "matchPackageNames": [
+        "next",
+        "@next/bundle-analyzer",
+        "eslint-config-next"
+      ],
       "matchBaseBranches": ["v14"],
       "allowedVersions": "14.x"
     },
     {
-      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ],
       "matchBaseBranches": ["v14"],
       "allowedVersions": "18.x"
     },
