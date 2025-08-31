@@ -21,31 +21,31 @@
     "knip": "knip"
   },
   "dependencies": {
-    "next": "^14.2.30",
+    "next": "^14.2.32",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "zod": "^4.0.14"
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/cz-commitlint": "^19.8.1",
     "@commitlint/types": "^19.8.1",
-    "@ianvs/prettier-plugin-sort-imports": "^4.5.1",
-    "@next/bundle-analyzer": "^14.2.30",
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
+    "@next/bundle-analyzer": "^14.2.32",
     "@prettier/plugin-oxc": "^0.0.4",
-    "@types/node": "^22.17.0",
-    "@types/react": "^18.3.23",
+    "@types/node": "^22.18.0",
+    "@types/react": "^18.3.24",
     "@types/react-dom": "^18.3.7",
     "commitizen": "^4.3.1",
     "eslint": "^8.57.1",
-    "eslint-config-next": "^14.2.30",
+    "eslint-config-next": "^14.2.32",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
-    "knip": "^5.62.0",
-    "lint-staged": "^16.1.2",
+    "knip": "^5.63.0",
+    "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   }
 }
