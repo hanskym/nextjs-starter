@@ -15,21 +15,12 @@
   "ignoreDeps": ["node"],
   "packageRules": [
     {
-      "matchPackageNames": [
-        "next",
-        "@next/bundle-analyzer",
-        "eslint-config-next"
-      ],
+      "matchPackageNames": ["next", "@next/bundle-analyzer", "eslint-config-next"],
       "matchBaseBranches": ["v14"],
       "allowedVersions": "14.x"
     },
     {
-      "matchPackageNames": [
-        "react",
-        "react-dom",
-        "@types/react",
-        "@types/react-dom"
-      ],
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"],
       "matchBaseBranches": ["v14"],
       "allowedVersions": "18.x"
     },
