@@ -5,7 +5,8 @@
 ## Features
 
 - 🚀 **Next.js** with App Router
-  - [v15](https://github.com/hanskym/nextjs-starter)
+  - [v16](https://github.com/hanskym/nextjs-starter)
+  - [v15](https://github.com/hanskym/nextjs-starter/tree/v15)
   - [v14](https://github.com/hanskym/nextjs-starter/tree/v14)
 - ⚛️ **React** 18
 - 🟦 **TypeScript**: Adds type safety to the code
