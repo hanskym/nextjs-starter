@@ -5,7 +5,6 @@ const config: KnipConfig = {
   ignore: ['src/config/site.ts'],
   ignoreDependencies: [
     'zod',
-    '@commitlint/cli',
     '@eslint/js',
     'eslint-config-next',
     'eslint-config-prettier',
