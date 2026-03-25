@@ -5,6 +5,8 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  /* config options here */
+};
 
 export default withBundleAnalyzer(nextConfig);
