@@ -31,12 +31,21 @@
     },
     {
       "matchPackageNames": ["eslint"],
+      "matchBaseBranches": ["master", "v15"],
+      "allowedVersions": "9.x"
+    },
+    {
+      "matchPackageNames": ["eslint"],
       "matchBaseBranches": ["v14"],
       "allowedVersions": "8.x"
     },
     {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "5.x"
+    },
+    {
       "matchPackageNames": ["@types/node"],
-      "allowedVersions": "22.x"
+      "allowedVersions": "24.x"
     }
   ]
 }

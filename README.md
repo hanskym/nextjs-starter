@@ -28,10 +28,11 @@
 
 Make sure you have the following installed:
 
-- [Node.js](https://nodejs.org) (version 22 or later)
-- [Bun](https://bun.sh)
+- [Node.js](https://nodejs.org) (version 24 or later)
+- [Bun](https://bun.sh) (optional)
 
-> **Note:** If using npm, Yarn, or pnpm, adjust the package commands accordingly, including Husky commit hooks.
+> **Note:** This project uses Bun as the default package manager.  
+> If you are using npm, Yarn, or pnpm, you can still proceed, but make sure to adjust all package commands accordingly, including Husky commit hooks.
 
 ## Getting Started
 
